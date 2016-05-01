@@ -1,8 +1,8 @@
 inherit distutils
 
 NAME="terminator"
-VERSION=0.96
-RELEASE=2
+VERSION=0.98
+RELEASE=1
 CATEGORY="GNOME Shells"
 SUMMARY="GTK+ terminal with split-window and tabs capabilities"
 DESCRIPTION="The goal of this project is to produce a useful tool for arranging
@@ -10,7 +10,8 @@ terminals. It is inspired by programs such as gnome-multi-term, quadkonsole,
 etc. in that the main focus is arranging terminals in grids (tabs is the most
 common default method, which Terminator also supports)."
 HOMEPAGE="http://www.tenshu.net/terminator/"
-SRC_URI="http://launchpad.net/terminator/trunk/${PV}/+download/${PN}_${PV}.tar.gz"
+SRC_URI="http://launchpad.net/terminator/trunk/${PV}/+download/${PN}-${PV}.tar.gz"
+PATCH_URI="0000-terminator-fix-desktop-file.patch"
 
 src_install() {
 	cd ${B}

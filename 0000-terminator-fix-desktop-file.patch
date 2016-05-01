@@ -1,0 +1,14 @@
+Comply with
+https://specifications.freedesktop.org/desktop-entry-spec/latest/ar01s11.html
+
+--- data/terminator.desktop.in	2011-08-22 20:42:49.000000000 +0200
++++ data/terminator.desktop.in.fixed	2013-05-17 09:23:42.673630512 +0200
+@@ -9,7 +9,7 @@
+ StartupNotify=true
+ X-Ubuntu-Gettext-Domain=terminator
+ X-Ayatana-Desktop-Shortcuts=NewWindow;
+-[NewWindow Shortcut Group]
++[X-NewWindow Shortcut Group]
+ Name=Open a New Window
+ Exec=terminator
+ TargetEnvironment=Unity
