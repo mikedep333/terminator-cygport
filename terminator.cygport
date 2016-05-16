@@ -3,6 +3,7 @@ inherit distutils
 NAME="terminator"
 VERSION=0.98
 RELEASE=1
+ARCH=noarch
 CATEGORY="GNOME Shells"
 SUMMARY="GTK+ terminal with split-window and tabs capabilities"
 DESCRIPTION="The goal of this project is to produce a useful tool for arranging
